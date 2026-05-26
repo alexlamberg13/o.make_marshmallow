@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="O.make створює зефірні квіти ручної роботи у Києві: їстівні букети, подарункові композиції, gift box та майстер-класи."
+    />
+    <title>O.make | Зефірні квіти ручної роботи</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="assets/images/real/2026-05-24%2019.39.52.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <canvas class="petal-canvas" id="petalCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="O.make головна">o.make</a>
+      <nav class="desktop-nav" aria-label="Основна навігація">
+        <a href="#home">Головна</a>
+        <a href="#collections">Колекції</a>
+        <a href="#finder">Підбір</a>
+        <a href="#process">Процес</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Написати в Direct</a>
+      <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <button class="menu-close" type="button" aria-label="Закрити меню">Закрити</button>
+      <nav aria-label="Мобільна навігація">
+        <a href="#home">Головна</a>
+        <a href="#collections">Колекції</a>
+        <a href="#finder">Підбір</a>
+        <a href="#process">Процес</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <a class="mobile-cta" href="#contact">Написати в Direct</a>
+    </div>
+
+    <main>
+      <section class="hero section-dark" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HANDMADE EDIBLE FLORAL ATELIER · KYIV</p>
+          <h1>Зефірні квіти ручної роботи у форматі ніжного подарунка</h1>
+          <p class="hero-text">
+            Авторські їстівні букети та подарункові композиції, створені вручну пелюстка за пелюсткою.
+            Ніжність квітів, смак десерту і відчуття особливого моменту в одній коробці.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="#collections">Обрати подарунок</a>
+            <a class="button secondary" href="#contact">Написати в Direct</a>
+          </div>
+          <ul class="hero-badges" aria-label="Переваги O.make">
+            <li>Ручна робота</li>
+            <li>Під замовлення</li>
+            <li>Натуральні кольори</li>
+            <li>Київ / доставка</li>
+          </ul>
+        </div>
+
+        <div class="hero-media reveal" aria-label="Вітрина зефірних квітів O.make">
+          <div class="showcase-scene">
+            <figure class="showcase-card showcase-card-main tilt-card">
+              <img
+                src="assets/images/real/2026-05-24%2019.39.52.jpg"
+                alt="Подарункова кругла коробка із зефірними квітами та лавандою"
+                fetchpriority="high"
+                decoding="async"
+              />
+              <figcaption>
+                <span>Signature gift box</span>
+                <strong>Ніжність у коробці</strong>
+              </figcaption>
+            </figure>
+            <div class="showcase-card showcase-video tilt-card">
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/images/real/2026-05-24%2019.40.19.jpg">
+                <source src="assets/video/2026-05-24%2019.40.51.mp4" type="video/mp4" />
+              </video>
+              <p>пелюстка за пелюсткою</p>
+            </div>
+            <span class="light-orbit light-orbit-one" aria-hidden="true"></span>
+            <span class="light-orbit light-orbit-two" aria-hidden="true"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="badges-bar" aria-label="Ключові переваги">
+        <div class="badge reveal"><span>01</span>Ручна робота</div>
+        <div class="badge reveal"><span>02</span>Їстівна флористика</div>
+        <div class="badge reveal"><span>03</span>Подарункова подача</div>
+        <div class="badge reveal"><span>04</span>Київ та доставка</div>
+      </section>
+
+      <section class="section intro-section section-dark" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Бутик подарунків</p>
+          <h2>Не просто зефір, а витринний подарунок з настроєм</h2>
+          <p>
+            O.make поєднує десерт, флористику і пакування так, щоб подарунок хотілося роздивлятися ще до першого смаку.
+          </p>
+        </div>
+        <div class="atelier-note reveal">
+          <p>
+            Кожна композиція збирається під людину, привід і потрібний відтінок емоції: ніжний, святковий,
+            стриманий або дуже особистий.
+          </p>
+          <div class="atelier-mini-gallery" aria-label="Деталі зефірних квітів">
+            <img src="assets/images/real/2026-05-24%2019.39.45.jpg" alt="Макро зефірних бутонів у кремових та персикових відтінках" loading="lazy" decoding="async" />
+            <img src="assets/images/real/2026-05-24%2019.39.34.jpg" alt="Білі та рожеві зефірні квіти на підставках" loading="lazy" decoding="async" />
+            <img src="assets/images/real/2026-05-24%2019.40.31.jpg" alt="Зефірні тюльпани у теплому світлі свічок" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="collections">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Колекції</p>
+          <h2>Вітринні формати для різних моментів</h2>
+          <p>Кожен набір має власний характер: від маленького жесту до подарунка, який стає центром вечора.</p>
+        </div>
+        <div class="catalogue-grid">
+          <article class="catalogue-card reveal tilt-card">
+            <div class="card-image">
+              <img src="assets/images/real/2026-05-24%2019.39.01.jpg" alt="Ніжна кругла gift box із рожевими зефірними квітами та стрічкою" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-copy">
+              <p class="card-kicker">Signature Box</p>
+              <h3>Пудрова коробка</h3>
+              <p>Для мами, подруги або моменту, коли хочеться подарувати щось дуже ніжне.</p>
+              <a href="#contact">Створити подарунок</a>
+            </div>
+          </article>
+          <article class="catalogue-card reveal tilt-card">
+            <div class="card-image">
+              <img src="assets/images/real/2026-05-24%2019.39.08.jpg" alt="Три подарункові букети зефірних квітів у прозорих коробках" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-copy">
+              <p class="card-kicker">Classic Bouquet</p>
+              <h3>Ніжний букет</h3>
+              <p>Композиція з відчуттям квіткової вітрини, яку приємно вручати одразу.</p>
+              <a href="#contact">Підібрати букет</a>
+            </div>
+          </article>
+          <article class="catalogue-card reveal tilt-card">
+            <div class="card-image">
+              <img src="assets/images/real/2026-05-24%2019.40.35.jpg" alt="Кругла коробка зефірних квітів з лавандовою стрічкою та листівкою" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-copy">
+              <p class="card-kicker">Love Note</p>
+              <h3>Композиція з листівкою</h3>
+              <p>Для теплих слів, подяки, побачення або маленького особистого свята.</p>
+              <a href="#contact">Хочу такий формат</a>
+            </div>
+          </article>
+          <article class="catalogue-card reveal tilt-card">
+            <div class="card-image">
+              <img src="assets/images/real/2026-05-24%2019.39.22.jpg" alt="Зефірні квіти у винно-червоних і кремових відтінках у круглій коробці" loading="lazy" decoding="async" />
+            </div>
+            <div class="card-copy">
+              <p class="card-kicker">Evening Rose</p>
+              <h3>Глибока палітра</h3>
+              <p>Більш виразний подарунок для вечора, річниці або красивого жесту без зайвих слів.</p>
+              <a href="#contact">Обрати палітру</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section finder-section" id="finder">
+        <div class="finder-panel reveal">
+          <div>
+            <p class="eyebrow">Gift concierge</p>
+            <h2>Підберемо композицію під ваш привід</h2>
+            <p>
+              Напишіть, кому потрібен подарунок, яка дата і який настрій хочеться передати. Ми запропонуємо формат,
+              кольори і пакування без агресивних продажів.
+            </p>
+          </div>
+          <div class="finder-options" aria-label="Приклади підбору">
+            <article>
+              <span>Для мами</span>
+              <p>Кремові квіти, м'яка стрічка, тепла листівка.</p>
+            </article>
+            <article>
+              <span>Для подруги</span>
+              <p>Пудрова коробка, рожеві бутони, фото-настрій.</p>
+            </article>
+            <article>
+              <span>Для себе</span>
+              <p>Маленький набір, який робить звичайний вечір красивішим.</p>
+            </article>
+          </div>
+          <a class="button primary" href="#contact">Підібрати під мій привід</a>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process">
+        <div class="process-intro reveal">
+          <p class="eyebrow">Atelier process</p>
+          <h2>Як народжується зефірна квітка</h2>
+          <p>
+            Це уважна робота з текстурою, температурою, кольором і формою. У кадрі видно не тільки десерт,
+            а й ручний жест, з якого починається подарунок.
+          </p>
+          <div class="process-video tilt-card">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/images/real/2026-05-24%2019.40.19.jpg">
+              <source src="assets/video/2026-05-24%2019.41.04.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <div class="step-visual">
+              <img src="assets/images/real/2026-05-24%2019.40.08.jpg" alt="Майстриня O.make поруч із планетарним міксером" loading="lazy" decoding="async" />
+            </div>
+            <span>01</span>
+            <h3>Палітра</h3>
+            <p>Підбираємо кольори, формат і відчуття подарунка.</p>
+          </article>
+          <article class="step-card reveal">
+            <div class="step-visual">
+              <img src="assets/images/real/2026-05-24%2019.40.19.jpg" alt="Формування зефірної квітки кондитерським мішком" loading="lazy" decoding="async" />
+            </div>
+            <span>02</span>
+            <h3>Пелюстки</h3>
+            <p>Кожна квітка створюється вручну, повільно і точно.</p>
+          </article>
+          <article class="step-card reveal">
+            <div class="step-visual">
+              <img src="assets/images/real/2026-05-24%2019.39.05.jpg" alt="Рожеві та блакитні зефірні квіти на робочій поверхні" loading="lazy" decoding="async" />
+            </div>
+            <span>03</span>
+            <h3>Деталі</h3>
+            <p>Форма, листя і відтінки збираються в єдину композицію.</p>
+          </article>
+          <article class="step-card reveal">
+            <div class="step-visual">
+              <img src="assets/images/real/2026-05-24%2019.38.57.jpg" alt="Готова коробка із зефірними квітами у лавандово-білих відтінках" loading="lazy" decoding="async" />
+            </div>
+            <span>04</span>
+            <h3>Пакування</h3>
+            <p>Готовий набір виглядає як подарунок, а не просто солодощі.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section moments-section section-dark">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Для яких моментів</p>
+          <h2>Коли хочеться подарувати не річ, а емоцію</h2>
+        </div>
+        <div class="moments-grid">
+          <article class="moment-card reveal">
+            <span>День народження</span>
+            <p>Подарунок, який відкривають повільно і спочатку фотографують.</p>
+          </article>
+          <article class="moment-card reveal">
+            <span>Подяка</span>
+            <p>Ніжна композиція без зайвої гучності, але з відчуттям турботи.</p>
+          </article>
+          <article class="moment-card reveal">
+            <span>Побачення</span>
+            <p>Квіти, які можна з'їсти, і десерт, який виглядає як букет.</p>
+          </article>
+          <article class="moment-card reveal">
+            <span>Майстер-клас</span>
+            <p>Камерний досвід для тих, хто хоче створити квітку власноруч.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="lookbook">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Lookbook</p>
+          <h2>Реальні фото і відео з вітрини O.make</h2>
+          <p>Текстура, пакування, макро-пелюстки і моменти, де подарунок вже виглядає як маленьке свято.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-cell gallery-main reveal">
+            <img class="gallery-image" src="assets/images/real/2026-05-24%2019.39.48.jpg" alt="Кругла коробка з лавандовими та білими зефірними квітами" loading="lazy" decoding="async" />
+            <figcaption>Лавандова gift box</figcaption>
+          </figure>
+          <figure class="gallery-cell reveal">
+            <img class="gallery-image" src="assets/images/real/2026-05-24%2019.40.31.jpg" alt="Зефірні тюльпани у теплому світлі свічок" loading="lazy" decoding="async" />
+            <figcaption>Тепле світло</figcaption>
+          </figure>
+          <figure class="gallery-cell reveal">
+            <img class="gallery-image" src="assets/images/real/2026-05-24%2019.39.45.jpg" alt="Макро кремових зефірних бутонів" loading="lazy" decoding="async" />
+            <figcaption>Макро пелюсток</figcaption>
+          </figure>
+          <figure class="gallery-cell reveal">
+            <img class="gallery-image" src="assets/images/real/2026-05-24%2019.40.27.jpg" alt="Подарункова коробка із зефірними квітами в руках" loading="lazy" decoding="async" />
+            <figcaption>Момент вручення</figcaption>
+          </figure>
+          <figure class="gallery-cell gallery-video reveal">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/images/real/2026-05-24%2019.39.52.jpg">
+              <source src="assets/video/2026-05-24%2019.41.11.mp4" type="video/mp4" />
+            </video>
+            <figcaption>Behind the scenes</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section about-section section-dark" id="classes">
+        <div class="about-media reveal tilt-card">
+          <img src="assets/images/real/2026-05-24%2019.38.10.jpg" alt="Майстриня O.make у темній студії поруч із міксером" loading="lazy" decoding="async" />
+          <div class="accent-card">500+<span>подарунків і учасників</span></div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">Майстер-класи</p>
+          <h2>Камерний atelier-досвід для тих, хто хоче спробувати</h2>
+          <p>
+            На занятті ви бачите весь шлях квітки: від зефірної маси до готової композиції. Формат спокійний,
+            уважний і дружній до новачків.
+          </p>
+          <p>
+            Це не просто урок, а можливість доторкнутися до ремесла, відчути текстуру і забрати з собою власну роботу.
+          </p>
+          <a class="button secondary" href="#contact">Дізнатися про дати</a>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Відгуки</p>
+          <h2>Теплі слова після відкриття коробки</h2>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>Виглядало як справжній букет, тільки ще ніжніше. Мама довго не вірила, що це можна їсти.</blockquote>
+            <p>Олена</p>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>Замовляла на подарунок подрузі. Коробка була настільки красива, що ми спочатку зробили фото.</blockquote>
+            <p>Марина</p>
+          </article>
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <blockquote>Майстер-клас пройшов спокійно і дуже тепло. Вийшла квітка, яку шкода було їсти.</blockquote>
+            <p>Ірина</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq-section section-dark">
+        <div class="section-heading reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Деталі замовлення</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>За скільки днів краще писати?</summary>
+            <p>Найкраще звернутися за кілька днів, щоб спокійно узгодити формат, палітру і дату.</p>
+          </details>
+          <details>
+            <summary>Можна підібрати кольори під людину?</summary>
+            <p>Так. Ми можемо зробити композицію більш пудровою, лавандовою, ягідною або стриманою.</p>
+          </details>
+          <details>
+            <summary>Чи можна замовити майстер-клас?</summary>
+            <p>Так, напишіть у Direct або Telegram, і ми підкажемо актуальні формати та дати.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="contact-section section-dark" id="contact">
+        <div class="contact-inner reveal">
+          <p class="eyebrow">Замовлення</p>
+          <h2>Створимо подарунок, який хочеться роздивлятися</h2>
+          <p>Напишіть в Instagram або Telegram, і ми підберемо формат, кольори, пакування та дату виготовлення.</p>
+          <div class="button-row contact-actions">
+            <a class="button primary" href="https://instagram.com/o.make_marshmallow" target="_blank" rel="noreferrer">Instagram</a>
+            <a class="button secondary" href="#finder">Підібрати під привід</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#home">o.make</a>
+        <p>Зефірні квіти ручної роботи</p>
+      </div>
+      <nav aria-label="Навігація у футері">
+        <a href="#home">Головна</a>
+        <a href="#collections">Колекції</a>
+        <a href="#finder">Підбір</a>
+        <a href="#process">Процес</a>
+        <a href="#lookbook">Lookbook</a>
+      </nav>
+      <p>© 2026 O.make. Всі права захищені.</p>
+    </footer>
+
+    <script src="js/three-scene.js"></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
